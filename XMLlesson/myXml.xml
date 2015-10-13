@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <unit id="1">
+        <name>Vasya</name>
+        <description>this is Vasya</description>
+    </unit>  
+    <unit id="2">
+        <name>Petya</name>
+        <description>this is Petya</description>
+    </unit>  
+    <unit id="3">
+        <name>Kolya</name>
+        <description>this is Kolya</description>
+    </unit>  
+</root>

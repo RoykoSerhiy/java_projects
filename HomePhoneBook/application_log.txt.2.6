@@ -1,0 +1,44 @@
+сен 15, 2015 6:18:56 PM homephonebook.PhoneBook readFromFile
+INFO: Book readed
+сен 15, 2015 6:19:12 PM homephonebook.PhoneBook parseToXML
+SEVERE: null
+
+javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:368)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:211)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:273)
+	at homephonebook.PhoneBook.parseToXML(PhoneBook.java:169)
+	at homephonebook.HomePhoneBook.menu(HomePhoneBook.java:101)
+	at homephonebook.HomePhoneBook.main(HomePhoneBook.java:25)
+Caused by: java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:266)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:214)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:339)
+	... 5 more
+---------
+java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:266)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:214)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:339)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:211)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:273)
+	at homephonebook.PhoneBook.parseToXML(PhoneBook.java:169)
+	at homephonebook.HomePhoneBook.menu(HomePhoneBook.java:101)
+	at homephonebook.HomePhoneBook.main(HomePhoneBook.java:25)
+--------------- linked to ------------------
+javax.xml.xpath.XPathExpressionException: javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:287)
+	at homephonebook.PhoneBook.parseToXML(PhoneBook.java:169)
+	at homephonebook.HomePhoneBook.menu(HomePhoneBook.java:101)
+	at homephonebook.HomePhoneBook.main(HomePhoneBook.java:25)
+Caused by: javax.xml.transform.TransformerException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:368)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.eval(XPathImpl.java:211)
+	at com.sun.org.apache.xpath.internal.jaxp.XPathImpl.evaluate(XPathImpl.java:273)
+	... 3 more
+Caused by: java.lang.RuntimeException: Unable to evaluate expression using this context
+	at com.sun.org.apache.xpath.internal.axes.NodeSequence.setRoot(NodeSequence.java:266)
+	at com.sun.org.apache.xpath.internal.axes.LocPathIterator.execute(LocPathIterator.java:214)
+	at com.sun.org.apache.xpath.internal.XPath.execute(XPath.java:339)
+	... 5 more
+

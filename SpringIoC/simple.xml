@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans 
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    
+    http://www.springframework.org/schema/tx 
+    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+    
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
+    >
+    <bean id="mainUnit" class="Units.Knight">
+        <constructor-arg index="0" type="java.lang.String" value="Vasya"/>
+        
+    </bean>
+    <bean id="supportUnit" class="Units.Archer">
+        <property name="name" value="Vova"/>
+    </bean>
+    <bean id="magUnit" class="Units.Mag">
+        <constructor-arg index="0" type="java.lang.String" value="Merlin"/>
+    </bean>
+    <bean id="missionStart" class="Units.Mission" factory-method="getMission">
+    </bean>
+     <bean id="history" class="Units.History">
+    </bean>
+    <aop:config>
+        <aop:aspect ref="history">
+            <aop:pointcut id="doingMission" expression="execution(* *.doMisson(..))"/>
+            <aop:before pointcut-ref="doingMission" method="beforeMisson"/>
+            <aop:after pointcut-ref="doingMission" method="aftrerMisson"/>
+        </aop:aspect>
+    </aop:config>
+    
+    
+</beans>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/dao/interfaces/PostDAO.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/dao/interfaces/PostJdbcDAO.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/dao/interfaces/CommentJdbcDAO.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/controllers/AuthController.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/entities/Post.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/entities/Comment.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/jsp/post/view.jsp</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/controllers/BasicController.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/dao/interfaces/UserDAO.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/dao/interfaces/CommentDAO.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/jsp/user/profile.jsp</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/jsp/auth/login_form.jsp</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/jsp/auth/reg_form.jsp</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/controllers/CommentController.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/jsp/post/form.jsp</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/controllers/HomeController.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/entities/User.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/controllers/UserController.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/dao/interfaces/UserJdbcDAO.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/src/java/cource/controllers/PostController.java</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/C:/Users/Serhiy/Documents/NetBeansProjects/courceWork/web/WEB-INF/jsp/home.jsp</file>
+        </group>
+    </open-files>
+</project-private>
